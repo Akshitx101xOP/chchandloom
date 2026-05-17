@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   const OWNER = "Akshitx101xOP";
-  const REPO = "chc-handlooms";
+  const REPO = "chchandloom";
 
   try {
     const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/data/all-products.json`;

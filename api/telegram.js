@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
     const TELEGRAM_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const OWNER = "Akshitx101xOP";
-    const REPO = "chc-handlooms";
+    const REPO = "chchandloom";
     const CATEGORIES = ["bedsheets", "curtains", "blankets", "comforters"];
     const FILE_PATHS = {
       bedsheets: "data/bedsheets.json",
