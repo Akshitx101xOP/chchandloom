@@ -1,0 +1,32 @@
+{
+  "name": "chc-handlooms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshitx101xOP/chc-handlooms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Akshitx101xOP/chc-handlooms/issues"
+  },
+  "homepage": "https://github.com/Akshitx101xOP/chc-handlooms#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "file-type": "^16.5.4",
+    "firebase-admin": "^13.9.0",
+    "heic-convert": "^2.1.0",
+    "multer": "^2.1.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8N12BGTD1Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8N12BGTD1Q');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the CHC Handlooms Lookbook: Stylish and affordable inspirations for your home. Curated handcrafted curtains, bedsheets, and comforters for the modern Indian aesthetic.">
+    <title>Lookbook | Stylish & Affordable Home Inspiration | CHC Handlooms</title>
+    <link rel="canonical" href="https://www.chchandloom.in/lookbook.html" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="preload" href="css/style.css?v=1.4" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.css?v=1.4">
+    </noscript>
+    <style>
+        .lookbook-hero {
+            padding: 10rem 0 6rem;
+            text-align: center;
+            background-color: var(--clr-ivory);
+        }
+
+        .lookbook-hero h1 {
+            font-size: clamp(3rem, 10vw, 6rem);
+            margin-bottom: 1rem;
+        }
+
+        .lookbook-hero p {
+            font-size: 1.25rem;
+            color: var(--clr-text-light);
+            font-weight: 300;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .journal-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12rem;
+            padding: 8rem 0;
+        }
+
+        .journal-item {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 6rem;
+            align-items: center;
+        }
+
+        .journal-item:nth-child(even) {
+            grid-template-columns: 1fr 1.2fr;
+        }
+
+        .journal-item:nth-child(even) .journal-img {
+            order: 2;
+        }
+
+        .journal-item:nth-child(even) .journal-text {
+            order: 1;
+        }
+
+        .journal-img {
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            aspect-ratio: 16/10;
+        }
+
+        .journal-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform var(--transition-slow);
+        }
+
+        .journal-item:hover .journal-img img {
+            transform: scale(1.03);
+        }
+
+        .journal-text {
+            max-width: 480px;
+        }
+
+        .journal-text h2 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+
+        .journal-text p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--clr-text-mid);
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+
+        .journal-link {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--clr-teal);
+            font-weight: 500;
+            display: inline-block;
+            border-bottom: 1px solid var(--clr-teal);
+            padding-bottom: 4px;
+        }
+
+        @media (max-width: 992px) {
+
+            .journal-item,
+            .journal-item:nth-child(even) {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+            }
+
+            .journal-item:nth-child(even) .journal-img,
+            .journal-item:nth-child(even) .journal-text {
+                order: unset;
+            }
+
+            .journal-text {
+                margin: 0 auto;
+            }
+
+            .journal-grid {
+                gap: 8rem;
+            }
+        }
+    </style>
+    <link rel="preload" as="image" href="images/styled_home.webp">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.webp" alt="CHC Handlooms Sarojini Nagar Market, New Delhi" width="180" height="76" fetchpriority="high"
+                    decoding="async">
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#collections">Collections</a>
+                <a href="lookbook.html">Lookbook</a>
+                <a href="our-story.html">Our Story</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="index.html#contact" class="btn btn-primary btn-nav">Contact Us</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Lookbook Hero -->
+    <section class="lookbook-hero">
+        <div class="container reveal-fade-up">
+            <span class="eyebrow text-teal">Style Guide '26</span>
+            <h1>The <span class="italic-serif">Lookbook</span></h1>
+            <p>Curated inspirations for the modern Indian home. Discover the art of layering textures and creating calm,
+                tactile spaces.</p>
+        </div>
+    </section>
+
+    <!-- Journal Grid -->
+    <div class="container">
+        <div class="journal-grid">
+            <!-- Item 1 -->
+            <article class="journal-item reveal-fade-up">
+                <div class="journal-img">
+                    <img src="images/styled_home.webp" alt="Neutral Indian Home Styling" fetchpriority="high"
+                        decoding="async" width="1200" height="750">
+                </div>
+                <div class="journal-text">
+                    <span class="eyebrow text-teal">Inspiration</span>
+                    <h2>Styling Neutral <br><span class="italic-serif">Indian Homes</span></h2>
+                    <p>Discover how to use warm whites, earthy beiges, and subtle textures to create a home that feels
+                        expansive yet deeply rooted. We explore the balance between modern minimalism and handcrafted
+                        warmth.</p>
+                    <a href="https://wa.me/918130705133?text=I'd%20like%20to%20get%20styling%20advice%20for%20my%20home"
+                        class="journal-link">Enquire for Advice →</a>
+                </div>
+            </article>
+
+            <!-- Item 2 -->
+            <article class="journal-item reveal-fade-up">
+                <div class="journal-text">
+                    <span class="eyebrow text-teal">Bedroom Guide</span>
+                    <h2>Layering Textures for <br><span class="italic-serif">Quiet Mornings</span></h2>
+                    <p>The bedroom is a sanctuary for rest. Learn the art of layering soft cotton bedsheets with
+                        textured throws and light-filtering curtains to create a space that feels calm and restorative.
+                    </p>
+                    <a href="bedsheetscollections.html" class="journal-link">Shop the Look →</a>
+                </div>
+                <div class="journal-img">
+                    <img src="images/cozy_bedroom.webp" alt="Textured Bedroom Styling" loading="lazy" decoding="async">
+                </div>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="journal-item reveal-fade-up">
+                <div class="journal-img">
+                    <img src="images/artisan_hero.webp" alt="Artisan Hands Weaving" loading="lazy" decoding="async">
+                </div>
+                <div class="journal-text">
+                    <span class="eyebrow text-teal">Craft</span>
+                    <h2>The Return of <br><span class="italic-serif">Handloom Living</span></h2>
+                    <p>As the world moves toward mass-production, we celebrate the return to the shuttle. Explore why
+                        handloom living is the ultimate affordable choice for those who value authenticity, tactile
+                        quality, and human artistry.</p>
+                    <a href="our-story.html" class="journal-link">Discover Our Story →</a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <!-- Final CTA -->
+    <section class="final-cta section-padding cta-section">
+        <div class="container cta-container reveal-fade-up">
+            <h2 class="cta-title">Start Your <br><span class="italic-serif">Styling Journey</span></h2>
+            <p class="cta-desc">Bring the warmth of handcrafted textiles into your everyday life.</p>
+            <div class="cta-buttons">
+                <a href="index.html#collections" class="btn btn-primary">Explore Collections</a>
+                <a href="https://wa.me/918130705133" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-ivory">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo footer-logo">
+                        <img src="images/logo.webp" alt="CHC Handlooms Sarojini Nagar Market, New Delhi" width="180" height="76" loading="lazy"
+                            decoding="async">
+                    </a>
+                    <p class="brand-statement">Designed with warmth for modern Indian homes. Affordable handcrafted
+                        furnishings from Sarojini Nagar Market, New Delhi.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4>Education</h4>
+                        <a href="cotton-guide.html">Cotton Guide</a>
+                        <a href="handloom-process.html">Handloom Process</a>
+                        <a href="fabric-care.html">Fabric Care</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Brand</h4>
+                        <a href="our-story.html">Our Story</a>
+                        <a href="lookbook.html">Lookbook</a>
+                        <a href="index.html#contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>© 2026 CHC Handlooms. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js?v=2.1"></script>
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/918130705133" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28" fill="white">
+            <path
+                d="M16.04 3C8.84 3 3 8.74 3 15.84c0 2.5.74 4.93 2.14 7L3 29l6.37-2.08a13.2 13.2 0 006.67 1.82h.01C23.24 28.74 29 23 29 15.84 29 8.74 23.24 3 16.04 3zm0 23.44h-.01a10.9 10.9 0 01-5.56-1.53l-.4-.24-3.78 1.23 1.24-3.67-.26-.38a10.8 10.8 0 01-1.67-5.8c0-5.97 4.87-10.84 10.85-10.84 2.9 0 5.62 1.13 7.67 3.17a10.75 10.75 0 013.18 7.67c0 5.98-4.86 10.84-10.84 10.84zm5.95-8.14c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.5-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.13 3.25 5.16 4.55.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" />
+        </svg>
+    </a>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1001,
+    "title": "The Ivory Whisper Hand-Finished Bedsheet",
+    "slug": "ivory-whisper-hand-finished-bedsheet",
+    "price": "2499",
+    "description": "Crafted from breathable hand-finished cotton, this bedsheet is designed to bring softness, warmth, and quiet elegance into everyday living spaces.",
+    "material": "100% Premium Cotton",
+    "sizes": "King (108x108 inches)",
+    "image": "images/cozy_bedroom.webp",
+    "createdAt": "2026-05-10T07:28:00Z",
+    "category": "bedsheets"
+  }
+]
