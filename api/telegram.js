@@ -247,25 +247,10 @@ export default async function handler(req, res) {
 
       try {
         const imageResponse = await fetch(telegramUrl);
-        let imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
+        const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
 
-        const FileType = require('file-type');
+        // sharp handles JPEG, PNG, WebP, HEIC natively — no file-type or heic-convert needed
         const sharp = require('sharp');
-        const heicConvert = require('heic-convert');
-
-        const type = await FileType.fromBuffer(imageBuffer);
-        const mime = type ? type.mime : 'image/jpeg';
-
-        if (mime === 'image/heic' || mime === 'image/heif') {
-          const converted = await heicConvert({
-            buffer: imageBuffer,
-            format: 'PNG'
-          });
-          imageBuffer = Buffer.from(converted);
-        } else {
-          imageBuffer = await sharp(imageBuffer).png().toBuffer();
-        }
-
         const baseFileName = `${slug}-${productId}-${Date.now()}`;
 
         const imageWebpBuffer = await sharp(imageBuffer)
