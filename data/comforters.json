@@ -26,5 +26,29 @@
     "cardImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1779047595515-card.webp",
     "detailImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1779047595515-detail.webp",
     "createdAt": "2026-05-17T19:53:17.347Z"
+  },
+  {
+    "id": 1001,
+    "slug": "brown",
+    "category": "comforters",
+    "title": "brown",
+    "price": "1000",
+    "description": "ok",
+    "material": "ok",
+    "sizes": "ok",
+    "primaryTelegramFileId": "AgACAgUAAxkBAAIBi2oKHKeIOHGt-E5Qj1eM7u1vktQVAAL1E2sbVVpRVGnLUVAZbpMaAQADAgADeAADOwQ",
+    "telegramMediaGroupId": "",
+    "images": [
+      {
+        "telegramFileId": "AgACAgUAAxkBAAIBi2oKHKeIOHGt-E5Qj1eM7u1vktQVAAL1E2sbVVpRVGnLUVAZbpMaAQADAgADeAADOwQ",
+        "image": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp",
+        "cardImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp",
+        "detailImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp"
+      }
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp",
+    "cardImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp",
+    "detailImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1001-1779090247317-image.webp",
+    "createdAt": "2026-05-18T07:44:08.273Z"
   }
 ]
