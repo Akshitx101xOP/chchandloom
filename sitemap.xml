@@ -42,7 +42,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Education Hub -->
   <url>
     <loc>https://www.chchandloom.in/cotton-guide.html</loc>
     <lastmod>2026-05-10</lastmod>
@@ -60,5 +59,12 @@
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <!-- Dynamic Product Pages -->
+  <url>
+    <loc>https://www.chchandloom.in/product.html?slug=brown</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
