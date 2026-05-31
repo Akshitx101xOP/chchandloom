@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1000,
+    "slug": "brown",
+    "category": "bedsheets",
+    "title": "brown",
+    "price": "999",
+    "description": "ok",
+    "material": "ok",
+    "sizes": "ok",
+    "primaryTelegramFileId": "AgACAgUAAxkBAAIBuWocXrpi-sXtB3LyRcM639vPQe5xAAI-EWsbyqlAVKex1o4sEa-dAQADAgADeQADOwQ",
+    "telegramMediaGroupId": "14241953239975125",
+    "images": [
+      {
+        "telegramFileId": "AgACAgUAAxkBAAIBuWocXrpi-sXtB3LyRcM639vPQe5xAAI-EWsbyqlAVKex1o4sEa-dAQADAgADeQADOwQ",
+        "image": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp",
+        "cardImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp",
+        "detailImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp"
+      }
+    ],
+    "image": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp",
+    "cardImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp",
+    "detailImage": "https://cdn.jsdelivr.net/gh/Akshitx101xOP/chchandloom@main/images/products/brown-1000-1780244158854-image.webp",
+    "createdAt": "2026-05-31T16:15:59.853Z"
+  }
+]
